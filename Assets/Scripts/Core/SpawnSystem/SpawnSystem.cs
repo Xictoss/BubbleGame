@@ -17,11 +17,6 @@ namespace BubbleGame.Core
         [Header("Assignations")]
         [SerializeField]
         private GameObject[] animals; //les trucs à spawn
-        
-        
-        [SerializeField] 
-        private Transform spawnPoint;
-        [SerializeField] private List<GameObject> animals; //les trucs à spawn
         [SerializeField] private Transform spawnPoint;
         [SerializeField] private Button button;
 
