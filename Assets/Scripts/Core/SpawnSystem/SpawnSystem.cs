@@ -1,12 +1,16 @@
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace BubbleGame.Core
 {
     public class SpawnSystem : MonoBehaviour
     {
+
+        [SerializeField] private Player player;
         [Header("Spawn Settings")]
-        public int croquettes = 50; //remove pour prendre la valeur présente dans le script du joueur 
+       // public int croquettes = 50; //remove pour prendre la valeur présente dans le script du joueur 
         //système de croquettes prcq jsuis une fraude j'ai pas compris qui fait quoi et où
         public int index;
         public int coutEnCroquettes = 10; 
@@ -17,13 +21,16 @@ namespace BubbleGame.Core
         
         [SerializeField] 
         private Transform spawnPoint;
+        [SerializeField] private List<GameObject> animals; //les trucs à spawn
+        [SerializeField] private Transform spawnPoint;
+        [SerializeField] private Button button;
 
 
         public void SpawnObject()
         {
-            if (croquettes >= coutEnCroquettes)
+            if (player.Croquette >= coutEnCroquettes)
             {
-                croquettes -= coutEnCroquettes;//enlève les croquettes
+                player.Croquette -= coutEnCroquettes;//enlève les croquettes
 
                 //TODO dynamic index
                 SpawnAnimal(index);
@@ -35,8 +42,7 @@ namespace BubbleGame.Core
 
             else
             {
-                Debug.Log("Pas assez de croquettes mgl");
-                
+                button.transform.DOShakePosition(3, Vector3.right, 1000);
             }
         }
 

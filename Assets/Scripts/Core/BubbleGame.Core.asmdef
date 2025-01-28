@@ -2,6 +2,7 @@
     "name": "BubbleGame.Core",
     "rootNamespace": "BubbleGame.Core",
     "references": [
+        "DOTween.Modules",
         ""
     ],
     "includePlatforms": [],
