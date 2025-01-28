@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace BubbleGame.Core
 {
-    public class Animals : MonoBehaviour
+    public class Animal : MonoBehaviour
     {
         public float movementSpeed = 20f; // Vitesse de base
         public float rotationSpeed = 100f; // Vitesse de rotation de base
@@ -15,6 +15,9 @@ namespace BubbleGame.Core
 
         private Rigidbody rb;
 
+        [HideInInspector]
+        public int index;
+        
         void Start()
         {
             rb = GetComponent<Rigidbody>();
