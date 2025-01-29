@@ -6,22 +6,28 @@ namespace BubbleGame.Core
 {
     public class UpgradeSystem : MonoBehaviour
     {
-        [SerializeField] private int upgradeCroquetteCost = 100;
-        [SerializeField] private int upgradeLevelCost = 1000;
         [SerializeField] private float upgradePower = 1.3f;
-        [SerializeField] private float LevelCostMultiplier = 1.6f;
+        [SerializeField] private float levelCostMultiplier = 1.6f;
+        [SerializeField] private float animalPriceMultiplier = 3f;
         [SerializeField] private GameObject upgradeButton;
+        [SerializeField] private GameObject levelUpButton;
+        public int upgradeLevelCost = 1000;
+        public int upgradeCroquetteCost = 100;
         [Header("Scripts refs")]
         [SerializeField] private SpawnSystem spawnSystem;
         
         private SoapGenerator _soapGenerator;
         private Player _player;
+        private RefreshTMP _refreshTmp;
+        private SpawnSystem _spawnSystem;
         
         
         private void Awake()
         {
             _soapGenerator = FindFirstObjectByType<SoapGenerator>();
             _player = FindFirstObjectByType<Player>();
+            _refreshTmp = FindFirstObjectByType<RefreshTMP>();
+            _spawnSystem = FindFirstObjectByType<SpawnSystem>();
         }
 
         public void OnTryToUpgradeCroquette()
@@ -31,6 +37,7 @@ namespace BubbleGame.Core
                 _player.Soap -= upgradeCroquetteCost;
                 _soapGenerator.generatePower = Mathf.CeilToInt(_soapGenerator.generatePower * upgradePower);
                 upgradeCroquetteCost = Mathf.CeilToInt(upgradeCroquetteCost * 1.6f);
+                _refreshTmp.RefreshTMPS();
             }
             else
             {
@@ -43,9 +50,14 @@ namespace BubbleGame.Core
             if (_player.Soap >= upgradeLevelCost)
             {
                 _player.Soap -= upgradeLevelCost;
-                upgradeLevelCost = Mathf.CeilToInt(upgradeLevelCost * LevelCostMultiplier);
+                upgradeLevelCost = Mathf.CeilToInt(upgradeLevelCost * levelCostMultiplier);
                 spawnSystem.index += 1;
-
+                _spawnSystem.croquetteCost = Mathf.CeilToInt(_spawnSystem.croquetteCost * animalPriceMultiplier);
+                _refreshTmp.RefreshTMPS();
+            }
+            else
+            {
+                levelUpButton.transform.DOShakePosition(1, Vector3.left, 100);
             }
         }
     }

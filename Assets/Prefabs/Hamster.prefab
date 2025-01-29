@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &4188388384571094892
+--- !u!1001 &8021134347441897348
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -8,14 +8,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5972604747557092, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
-      propertyPath: soapValue
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 5972604747557092, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
-      propertyPath: croquetteValue
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 539924595477119796, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -58,7 +50,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7025723812671729328, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
       propertyPath: m_Name
-      value: Poule
+      value: AnimalBase
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

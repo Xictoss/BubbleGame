@@ -23,8 +23,6 @@ namespace BubbleGame.Core.MenuSystem
             _image.SetActive(false);
         }
         
-        
-        
         public void Quit()
         {
             Application.Quit();
