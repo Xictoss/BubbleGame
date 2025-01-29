@@ -13,6 +13,8 @@ namespace BubbleGame.Core
     public class AnimalController : MonoBehaviour
     {
         private SpawnSystem spawnSystem;
+        private Player player;
+        private RefreshTMP refreshTMP;
 
         private float currentTime;
         [SerializeField]
@@ -20,6 +22,8 @@ namespace BubbleGame.Core
         private void Awake()
         {
             spawnSystem = GetComponent<SpawnSystem>();
+            player = FindFirstObjectByType<Player>();
+            refreshTMP = GetComponent<RefreshTMP>();
         }
 
         private void Update()
@@ -55,6 +59,16 @@ namespace BubbleGame.Core
                     Merge(a, b);
                 }
             }
+        }
+
+        public void Sell(Animal ats)
+        {
+            var croquetteToAdd = ats.croquetteValue;
+            var soapToAdd = ats.soapValue;
+            player.Croquette += croquetteToAdd;
+            player.Soap += soapToAdd;
+            refreshTMP.RefreshTMPS();
+            Destroy(ats.gameObject);
         }
 
         public void Merge(Animal a, Animal b)

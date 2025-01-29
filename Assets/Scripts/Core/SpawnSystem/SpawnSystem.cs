@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
@@ -9,25 +10,29 @@ namespace BubbleGame.Core
     {
         [Header("Assignations")]
         [SerializeField] private Player player;
+        [SerializeField] private RefreshTMP refreshTMP;
         [SerializeField] private Transform spawnPoint;
         [SerializeField] private Button button;
         [SerializeField] private GameObject[] animals; //les trucs à spawn
 
         [Header("Spawn Settings")]
         public int index;
-        public int croquetteCost = 10; 
+        public int croquetteCost = 10;
+
+        private void Awake()
+        {
+            refreshTMP = FindFirstObjectByType<RefreshTMP>();
+        }
 
 
         public void SpawnObject() //Button pour faire spawn manuellement
         {
             if (player.Croquette >= croquetteCost)
             {
-                player.Croquette -= croquetteCost; //enlève les croquettes
-
-                //TODO dynamic index
+                player.Croquette -= croquetteCost;
+                refreshTMP.RefreshTMPS();
                 SpawnAnimal(index);
             }
-
             else
             {
                 button.transform.DOShakePosition(3, Vector3.right, 1000);

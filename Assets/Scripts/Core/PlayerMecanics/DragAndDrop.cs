@@ -58,8 +58,7 @@ namespace BubbleGame.Core
             {
                 ContactFilter2D contactFilter2D = new ContactFilter2D()
                 {
-                    layerMask = LayerMask.GetMask("Animal"),
-                    
+                    layerMask = LayerMask.GetMask("Animal", "Sell"),
                 };
                 int count = Physics2D.OverlapPoint(GetMousePos(), contactFilter2D, colliders);
                 for (int i = 0; i < count; i++)
@@ -71,6 +70,13 @@ namespace BubbleGame.Core
                     {
                         Animal a = GetComponent<Animal>();
                         animalController.Merge(a, b);
+                        break;
+                    }
+
+                    if (colliders[i].gameObject.layer == LayerMask.NameToLayer("Sell"))
+                    {
+                        Animal a = animal;
+                        animalController.Sell(a);
                         break;
                     }
                 }

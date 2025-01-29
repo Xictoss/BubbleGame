@@ -3,7 +3,10 @@
     "rootNamespace": "BubbleGame.Core",
     "references": [
         "DOTween.Modules",
-        ""
+        "Unity.TextMeshPro",
+        "Unity.TextMeshPro.Editor",
+        "Unity.TextMeshPro.Editor.Tests",
+        "Unity.TextMeshPro.Tests"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
