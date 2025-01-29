@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace BubbleGame.Core
 {
-    public class Dragger : MonoBehaviour
+    public class DragAndDrop : MonoBehaviour
     {
         private AnimalController animalController;
 
@@ -27,6 +27,7 @@ namespace BubbleGame.Core
         private void Awake()
         {
             _cam = Camera.main;
+            animalController = FindFirstObjectByType<AnimalController>();
             rb2d = GetComponent<Rigidbody2D>();
             col2d = GetComponent<Collider2D>();
             animal = GetComponent<Animal>();
@@ -39,6 +40,17 @@ namespace BubbleGame.Core
 
         private void OnMouseUp()
         {
+            
+            isDragged = false;
+            Ray ray = _cam.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            
+            if (Physics.Raycast(ray, out hit) && hit.collider.CompareTag("Animal"))
+            {
+                Animal a = GetComponent<Animal>();
+                Animal b = hit.collider.GetComponent<Animal>();
+                animalController.Merge(a, b);
+            }
             if(animalController != null)
                 animalController.Merge(a, b);
             else

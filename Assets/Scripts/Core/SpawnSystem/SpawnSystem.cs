@@ -7,29 +7,25 @@ namespace BubbleGame.Core
 {
     public class SpawnSystem : MonoBehaviour
     {
-
-        [SerializeField] private Player player;
-        [Header("Spawn Settings")]
-       // public int croquettes = 50; //remove pour prendre la valeur présente dans le script du joueur 
-        //système de croquettes prcq jsuis une fraude j'ai pas compris qui fait quoi et où
-        public int index;
-        public int coutEnCroquettes = 10; 
         [Header("Assignations")]
-        [SerializeField]
-        private GameObject[] animals; //les trucs à spawn
+        [SerializeField] private Player player;
         [SerializeField] private Transform spawnPoint;
         [SerializeField] private Button button;
+        [SerializeField] private GameObject[] animals; //les trucs à spawn
+
+        [Header("Spawn Settings")]
+        public int index;
+        public int croquetteCost = 10; 
 
 
-        public void SpawnObject()
+        public void SpawnObject() //Button pour faire spawn manuellement
         {
-            if (player.Croquette >= coutEnCroquettes)
+            if (player.Croquette >= croquetteCost)
             {
-                player.Croquette -= coutEnCroquettes;//enlève les croquettes
+                player.Croquette -= croquetteCost; //enlève les croquettes
 
                 //TODO dynamic index
                 SpawnAnimal(index);
-
             }
 
             else
@@ -44,6 +40,11 @@ namespace BubbleGame.Core
                 
             Animal animal = spawnedGameObject.GetComponent<Animal>();
             animal.index = index;
+        }
+
+        public void OnTryToSpawnWithButton()
+        {
+            SpawnAnimal(index);
         }
 
 
