@@ -8,52 +8,52 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1521665802612698205, guid: 6b1630d33920eac4a8982b770fd7b739, type: 3}
-      propertyPath: m_Name
-      value: Ecureuil
-      objectReference: {fileID: 0}
-    - target: {fileID: 8349773654530376153, guid: 6b1630d33920eac4a8982b770fd7b739, type: 3}
+    - target: {fileID: 539924595477119796, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8349773654530376153, guid: 6b1630d33920eac4a8982b770fd7b739, type: 3}
+    - target: {fileID: 539924595477119796, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8349773654530376153, guid: 6b1630d33920eac4a8982b770fd7b739, type: 3}
+    - target: {fileID: 539924595477119796, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8349773654530376153, guid: 6b1630d33920eac4a8982b770fd7b739, type: 3}
+    - target: {fileID: 539924595477119796, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8349773654530376153, guid: 6b1630d33920eac4a8982b770fd7b739, type: 3}
+    - target: {fileID: 539924595477119796, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8349773654530376153, guid: 6b1630d33920eac4a8982b770fd7b739, type: 3}
+    - target: {fileID: 539924595477119796, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8349773654530376153, guid: 6b1630d33920eac4a8982b770fd7b739, type: 3}
+    - target: {fileID: 539924595477119796, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8349773654530376153, guid: 6b1630d33920eac4a8982b770fd7b739, type: 3}
+    - target: {fileID: 539924595477119796, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8349773654530376153, guid: 6b1630d33920eac4a8982b770fd7b739, type: 3}
+    - target: {fileID: 539924595477119796, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8349773654530376153, guid: 6b1630d33920eac4a8982b770fd7b739, type: 3}
+    - target: {fileID: 539924595477119796, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7025723812671729328, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
+      propertyPath: m_Name
+      value: Capybara
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6b1630d33920eac4a8982b770fd7b739, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}

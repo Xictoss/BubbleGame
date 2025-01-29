@@ -30,9 +30,6 @@ namespace BubbleGame.Core
                 //TODO dynamic index
                 SpawnAnimal(index);
 
-                /* la poule c num 0 et ainsi de suite jusquà la chimere mais dcp jsp comment ça va s'organiser
- après quand yaura les bonus et tt bref */
-
             }
 
             else
