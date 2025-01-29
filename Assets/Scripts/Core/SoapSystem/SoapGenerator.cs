@@ -9,7 +9,7 @@ namespace BubbleGame.Core.SoapSystem
     public class SoapGenerator : MonoBehaviour
     {
         [SerializeField] private Player player; 
-        private int generatePower = 1;
+        public int generatePower = 1;
         
         public void OnGenerate()
         {
