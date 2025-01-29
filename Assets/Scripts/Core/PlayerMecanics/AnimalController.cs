@@ -8,7 +8,6 @@ namespace BubbleGame.Core
 {
     public class AnimalController : MonoBehaviour
     {
-        [SerializeField]
         private SpawnSystem spawnSystem;
 
 

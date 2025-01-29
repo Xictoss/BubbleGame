@@ -1,107 +1,73 @@
+using System;
 using System.Collections;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace BubbleGame.Core
 {
     public class Animal : MonoBehaviour
     {
-        public float movementSpeed = 20f; // Vitesse de base
-        public float rotationSpeed = 100f; // Vitesse de rotation de base
-
-        private bool isWandering = false;
-        private bool isRotatingLeft = false;
-        private bool isRotatingRight = false;
-        private bool isWalking = false;
-
-        private Rigidbody rb;
-
+        /*
+        [SerializeField] 
+        private Collider wanderArea;
+        */
+        [SerializeField] 
+        float moveSpeed = 2.5f;
+        
         [HideInInspector]
         public int index;
         
-        void Start()
+        private Rigidbody2D rb2d;
+        
+        private Vector2 targetDirection;
+        private Vector2 lastDirection;
+        private float currentWaitTime;
+        private float waitTime;
+
+
+        private void Awake()
         {
-            rb = GetComponent<Rigidbody>();
+            rb2d = GetComponent<Rigidbody2D>();
         }
 
-        void Update()
+        private void Start()
         {
-            if (!isWandering)
-            {
-                StartCoroutine(Wander());
-            }
+            targetDirection = Random.insideUnitCircle.normalized;
+            SetNewRandomDirection();
         }
 
-        void FixedUpdate()
+        private void Update()
         {
-            if (isWalking)
+            currentWaitTime += Time.deltaTime;
+            if (currentWaitTime >= waitTime)
             {
-                // Ajoute une légère déviation pendant que l'objet avance
-                float randomDeviation = Random.Range(-0.5f, 0.5f); // Déviation aléatoire
-                Quaternion deviation = Quaternion.Euler(0, randomDeviation, 0);
-                rb.MoveRotation(rb.rotation * deviation);
-
-                // Déplacement
-                rb.AddForce(transform.forward * movementSpeed, ForceMode.Force);
-            }
-
-            if (isRotatingRight)
-            {
-                rb.MoveRotation(rb.rotation * Quaternion.Euler(0, rotationSpeed * Time.fixedDeltaTime, 0));
-            }
-
-            if (isRotatingLeft)
-            {
-                rb.MoveRotation(rb.rotation * Quaternion.Euler(0, -rotationSpeed * Time.fixedDeltaTime, 0));
+                SetNewRandomDirection();
             }
         }
 
-        IEnumerator Wander()
+        private void SetNewRandomDirection()
         {
-            int rotationTime = Random.Range(1, 4); // Durée de rotation
-            int rotateWait = Random.Range(1, 3); // Attente avant de tourner
-            int rotateDirection = Random.Range(1, 3); // 1 pour gauche, 2 pour droite
-            int walkWait = Random.Range(1, 3); // Attente avant de marcher
-            int walkTime = Random.Range(1, 5); // Durée de marche
+            waitTime = Random.Range(2f, 4f);
+            currentWaitTime = 0;
+                
+            lastDirection = targetDirection;
+                
+            Vector2 direction = Random.insideUnitCircle;
+            targetDirection = direction.normalized;
+        }
 
-            float randomSpeedFactor = Random.Range(0.8f, 1.2f); // Facteur de vitesse aléatoire
-            movementSpeed *= randomSpeedFactor; // Modifie temporairement la vitesse
+        private void FixedUpdate()
+        {
+            float interpolation = Mathf.InverseLerp(0, waitTime, currentWaitTime);
+            
+            Vector2 currentDirection = Vector2.Lerp(lastDirection, targetDirection, interpolation).normalized;
+            rb2d.linearVelocity = currentDirection * moveSpeed;
+        }
 
-            isWandering = true;
 
-            // 1. Attente avant de marcher
-            yield return new WaitForSeconds(walkWait);
-            isWalking = true;
-
-            // 2. Marche avec durée aléatoire
-            yield return new WaitForSeconds(walkTime);
-            isWalking = false;
-
-            // 3. Attente avant de tourner
-            yield return new WaitForSeconds(rotateWait);
-
-            // 4. Tourner dans une direction aléatoire
-            if (rotateDirection == 1)
-            {
-                isRotatingLeft = true;
-                yield return new WaitForSeconds(rotationTime);
-                isRotatingLeft = false;
-            }
-            else if (rotateDirection == 2)
-            {
-                isRotatingRight = true;
-                yield return new WaitForSeconds(rotationTime);
-                isRotatingRight = false;
-            }
-
-            // 5. Rotation globale aléatoire après chaque cycle
-            float randomAngle = Random.Range(0, 360); // Angle de rotation global
-            Quaternion newDirection = Quaternion.Euler(0, randomAngle, 0);
-            rb.MoveRotation(newDirection);
-
-            // Réinitialise la vitesse après avoir appliqué le facteur aléatoire
-            movementSpeed /= randomSpeedFactor;
-
-            isWandering = false; // Réinitialise l'état
+        private void OnCollisionEnter2D(Collision2D other)
+        {
+            targetDirection = Vector2.Reflect(targetDirection, other.contacts[0].normal).normalized;
         }
     }
 }
