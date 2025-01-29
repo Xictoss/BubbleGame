@@ -9,7 +9,7 @@ namespace BubbleGame.Core
 
         private void OnEnable()
         {
-            Soap = 100;
+            Soap = 100000;
             Croquette = 100;
         }
         
