@@ -1,5 +1,7 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -7,10 +9,14 @@ namespace BubbleGame.Core
 {
     public class Animal : MonoBehaviour
     {
-        /*
+        public static IEnumerable<Animal> Animals => animals;
+        
+        private static List<Animal> animals = new List<Animal>();
+
         [SerializeField] 
-        private Collider wanderArea;
-        */
+        public int soapValue;
+        [SerializeField] 
+        public int croquetteValue;
         [SerializeField] 
         float moveSpeed = 2.5f;
         
@@ -28,6 +34,17 @@ namespace BubbleGame.Core
         private void Awake()
         {
             rb2d = GetComponent<Rigidbody2D>();
+            transform.DOPunchScale(Vector3.one * 0.25f, 0.2f);
+        }
+
+        private void OnEnable()
+        {
+            animals.Add(this);
+        }
+
+        private void OnDisable()
+        {
+            animals.Remove(this);
         }
 
         private void Start()

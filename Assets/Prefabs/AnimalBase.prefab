@@ -177,6 +177,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxDragDistance: 5
+  draggedMask:
+    serializedVersion: 2
+    m_Bits: 192
+  nonDraggedMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &5972604747557092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,5 +195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87ffa666f2896724f8795e447de4d369, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soapValue: 9
+  croquetteValue: 0
   moveSpeed: 1.5
   index: 0

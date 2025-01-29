@@ -7,10 +7,13 @@ namespace BubbleGame.Core
 {
     public class DragAndDrop : MonoBehaviour
     {
+        private static Collider2D[] colliders = new Collider2D[8];
         private AnimalController animalController;
 
         [SerializeField] 
         private float maxDragDistance;
+
+        [SerializeField] private LayerMask draggedMask, nonDraggedMask;
         
         private Vector3 MousePos;
         private Camera _cam;
@@ -38,27 +41,6 @@ namespace BubbleGame.Core
             animalController = FindFirstObjectByType<AnimalController>();
         }
 
-        private void OnMouseUp()
-        {
-            
-            isDragged = false;
-            Ray ray = _cam.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-            
-            if (Physics.Raycast(ray, out hit) && hit.collider.CompareTag("Animal"))
-            {
-                Animal a = GetComponent<Animal>();
-                Animal b = hit.collider.GetComponent<Animal>();
-                animalController.Merge(a, b);
-            }
-            if(animalController != null)
-                animalController.Merge(a, b);
-            else
-            {
-                Debug.LogError("No animal controller was assigned", gameObject);
-            }
-        }
-
         private void Update()
         {
             if (Input.GetMouseButtonDown(0))
@@ -68,14 +50,34 @@ namespace BubbleGame.Core
                 {
                     isDragged = true;
                     animal.enabled = false;   
+                    col2d.excludeLayers = draggedMask;
                 }
-                Debug.Log(hit);
             }
 
             if (Input.GetMouseButtonUp(0) && isDragged)
             {
+                ContactFilter2D contactFilter2D = new ContactFilter2D()
+                {
+                    layerMask = LayerMask.GetMask("Animal"),
+                    
+                };
+                int count = Physics2D.OverlapPoint(GetMousePos(), contactFilter2D, colliders);
+                for (int i = 0; i < count; i++)
+                {
+                    if(colliders[i] == col2d)
+                        continue;
+                    
+                    if (colliders[i].TryGetComponent(out Animal b))
+                    {
+                        Animal a = GetComponent<Animal>();
+                        animalController.Merge(a, b);
+                        break;
+                    }
+                }
+
                 isDragged = false;
                 animal.enabled = true;
+                col2d.excludeLayers = nonDraggedMask;
             }
         }
 
@@ -83,8 +85,6 @@ namespace BubbleGame.Core
         {
             if (isDragged)
             {
-                Debug.Log("Doing drag", gameObject);
-                animal.enabled = false;
                 Vector2 targetPos = GetMousePos();
                 
                 Vector2 diff = targetPos - rb2d.position;

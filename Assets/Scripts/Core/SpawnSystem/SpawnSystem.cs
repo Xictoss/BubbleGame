@@ -34,17 +34,20 @@ namespace BubbleGame.Core
             }
         }
 
-        public void SpawnAnimal(int index)
+        public Animal SpawnAnimal(int i) => SpawnAnimal(i, spawnPoint.position, spawnPoint.rotation);
+        
+        public Animal SpawnAnimal(int i, Vector3 position, Quaternion rotation)
         {
-            GameObject spawnedGameObject = Instantiate(animals[index], spawnPoint.position, spawnPoint.rotation);
+            GameObject spawnedGameObject = Instantiate(animals[i], position, rotation);
                 
             Animal animal = spawnedGameObject.GetComponent<Animal>();
-            animal.index = index;
+            animal.index = i;
+            return animal;
         }
 
         public void OnTryToSpawnWithButton()
         {
-            SpawnAnimal(index);
+            SpawnObject();
         }
 
 
