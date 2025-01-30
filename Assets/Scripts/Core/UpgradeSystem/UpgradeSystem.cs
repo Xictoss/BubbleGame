@@ -6,9 +6,9 @@ namespace BubbleGame.Core
 {
     public class UpgradeSystem : MonoBehaviour
     {
-        [SerializeField] private float upgradePower = 1.3f;
-        [SerializeField] private float levelCostMultiplier = 1.6f;
-        [SerializeField] private float animalPriceMultiplier = 3f;
+        [SerializeField] private float upgradePower = 1.5f;
+        [SerializeField] private float levelCostMultiplier = 2.5f;
+        [SerializeField] private float animalPriceMultiplier = 2f;
         [SerializeField] private GameObject upgradeButton;
         [SerializeField] private GameObject levelUpButton;
         public int upgradeLevelCost = 1000;
