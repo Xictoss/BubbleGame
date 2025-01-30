@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e3fe75c94d22f124c9de756fb2ded28c
+guid: 35a465ba8411f344cbe9def15b25cf77
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2887523297098116039
-    second: Bubulle_0
+      213: 4969625224325618529
+    second: illu3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bubulle_0
+      name: illu3_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 5
-        width: 494
-        height: 483
+        x: 0
+        y: 0
+        width: 1080
+        height: 1600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9345dcb2cd47de7d0800000000000000
-      internalID: -2887523297098116039
+      spriteID: 16bdfb2bfc7a7f440800000000000000
+      internalID: 4969625224325618529
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bubulle_0: -2887523297098116039
+      illu3_0: 4969625224325618529
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
