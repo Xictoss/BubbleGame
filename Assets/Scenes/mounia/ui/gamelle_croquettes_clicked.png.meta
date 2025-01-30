@@ -168,6 +168,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -734,7 +760,32 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gamelle_croquettes_clicked_0: 1719058968737282150
+      gamelle_croquettes_clicked_1: 8304147122980014665
+      gamelle_croquettes_clicked_10: 3939397034408061984
+      gamelle_croquettes_clicked_11: 6094219354741318227
+      gamelle_croquettes_clicked_12: -524559890623270657
+      gamelle_croquettes_clicked_13: -2051407959523610026
+      gamelle_croquettes_clicked_14: 7049488499109283704
+      gamelle_croquettes_clicked_15: -6718798134659491050
+      gamelle_croquettes_clicked_16: -607584710511906910
+      gamelle_croquettes_clicked_17: -3407384368015360035
+      gamelle_croquettes_clicked_18: 1708349270889153364
+      gamelle_croquettes_clicked_19: 5416588012313705910
+      gamelle_croquettes_clicked_2: -8026657634059590443
+      gamelle_croquettes_clicked_20: 7068736780239180849
+      gamelle_croquettes_clicked_21: -6965384106362950357
+      gamelle_croquettes_clicked_22: 1253956768455394357
+      gamelle_croquettes_clicked_23: -8342535746274303331
+      gamelle_croquettes_clicked_24: -3123644183831380844
+      gamelle_croquettes_clicked_3: 8248823434556931510
+      gamelle_croquettes_clicked_4: 8771541377981620243
+      gamelle_croquettes_clicked_5: -6210262762860921363
+      gamelle_croquettes_clicked_6: 1880656945217953263
+      gamelle_croquettes_clicked_7: -3697324600760092440
+      gamelle_croquettes_clicked_8: -1834208471436706096
+      gamelle_croquettes_clicked_9: 5367205829202431117
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

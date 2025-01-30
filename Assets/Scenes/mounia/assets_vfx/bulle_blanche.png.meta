@@ -342,6 +342,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -2184,7 +2210,90 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bulle_blanche_0: 7703446734627138402
+      bulle_blanche_1: -4161404300688128001
+      bulle_blanche_10: -3729926628067666984
+      bulle_blanche_11: 4808895874016506046
+      bulle_blanche_12: -6687506748097941555
+      bulle_blanche_13: -1755098345113876824
+      bulle_blanche_14: -1948121834176060383
+      bulle_blanche_15: -1531627375057575444
+      bulle_blanche_16: 6115393761898138993
+      bulle_blanche_17: 3928878358225378632
+      bulle_blanche_18: 6565144751976411526
+      bulle_blanche_19: -4292338579839954312
+      bulle_blanche_2: 3553762267407478853
+      bulle_blanche_20: 8085397038191336494
+      bulle_blanche_21: -4942385601118365594
+      bulle_blanche_22: -8094738751996348358
+      bulle_blanche_23: 346596486290081803
+      bulle_blanche_24: 8733978840550853593
+      bulle_blanche_25: -5504640431185313070
+      bulle_blanche_26: 2603814021058238150
+      bulle_blanche_27: 3706356230877735770
+      bulle_blanche_28: -6997993682485257601
+      bulle_blanche_29: -4881428611298650863
+      bulle_blanche_3: -1825049417616346126
+      bulle_blanche_30: 6060637389066283846
+      bulle_blanche_31: -8493755018713306956
+      bulle_blanche_32: 337095668895937926
+      bulle_blanche_33: 621015740979787083
+      bulle_blanche_34: -2838158648389456294
+      bulle_blanche_35: 4134019976651017484
+      bulle_blanche_36: 4414403461755608733
+      bulle_blanche_37: 2510365943411057724
+      bulle_blanche_38: -1236048665909455635
+      bulle_blanche_39: 7007616858621266499
+      bulle_blanche_4: 7656196235111273257
+      bulle_blanche_40: -867251887048472018
+      bulle_blanche_41: 4717272928051739224
+      bulle_blanche_42: 4935335534818923552
+      bulle_blanche_43: -6302492564977207961
+      bulle_blanche_44: 6364651724302184387
+      bulle_blanche_45: -3152794514631500548
+      bulle_blanche_46: -4255654173719440449
+      bulle_blanche_47: 795331014412137988
+      bulle_blanche_48: -1239747594560022512
+      bulle_blanche_49: -6533687551967856016
+      bulle_blanche_5: 9103165313817301853
+      bulle_blanche_50: -933679766897181382
+      bulle_blanche_51: -2814138698967379460
+      bulle_blanche_52: 102735711234057776
+      bulle_blanche_53: 119951044309044641
+      bulle_blanche_54: 5358690911573651256
+      bulle_blanche_55: 3495724645134325831
+      bulle_blanche_56: 3701074260969706429
+      bulle_blanche_57: -5206781544557039646
+      bulle_blanche_58: -4661930033890465382
+      bulle_blanche_59: 1231709854363191618
+      bulle_blanche_6: -2332351246584230341
+      bulle_blanche_60: 317003160290365817
+      bulle_blanche_61: -4411650213801891935
+      bulle_blanche_62: 2644126496334619242
+      bulle_blanche_63: -8076928523064021358
+      bulle_blanche_64: -5952065218203588109
+      bulle_blanche_65: -6162030452220198166
+      bulle_blanche_66: 2590720433742604187
+      bulle_blanche_67: -5148806479294621593
+      bulle_blanche_68: -8515810456355513540
+      bulle_blanche_69: 6517571575486900044
+      bulle_blanche_7: -4232024588638626513
+      bulle_blanche_70: -158543902514578841
+      bulle_blanche_71: -6647883116599876556
+      bulle_blanche_72: 2875331442894061643
+      bulle_blanche_73: 2864864652223896384
+      bulle_blanche_74: -7600276006859798100
+      bulle_blanche_75: -1331951293663634334
+      bulle_blanche_76: -1085203994730736571
+      bulle_blanche_77: -6586929241957002530
+      bulle_blanche_78: -6387593316938414862
+      bulle_blanche_79: -2681451522212999353
+      bulle_blanche_8: 1247634820343041291
+      bulle_blanche_80: 2268199591109159970
+      bulle_blanche_81: 3568587178514873554
+      bulle_blanche_82: -1406545572192930810
+      bulle_blanche_9: -5114370749830436483
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
