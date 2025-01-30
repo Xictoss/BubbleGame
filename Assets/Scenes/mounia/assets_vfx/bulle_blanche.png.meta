@@ -1,0 +1,2192 @@
+fileFormatVersion: 2
+guid: ce2b4a9bb411f8645b267c6e63401af3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7703446734627138402
+    second: bulle_blanche_0
+  - first:
+      213: -4161404300688128001
+    second: bulle_blanche_1
+  - first:
+      213: 3553762267407478853
+    second: bulle_blanche_2
+  - first:
+      213: -1825049417616346126
+    second: bulle_blanche_3
+  - first:
+      213: 7656196235111273257
+    second: bulle_blanche_4
+  - first:
+      213: 9103165313817301853
+    second: bulle_blanche_5
+  - first:
+      213: -2332351246584230341
+    second: bulle_blanche_6
+  - first:
+      213: -4232024588638626513
+    second: bulle_blanche_7
+  - first:
+      213: 1247634820343041291
+    second: bulle_blanche_8
+  - first:
+      213: -5114370749830436483
+    second: bulle_blanche_9
+  - first:
+      213: -3729926628067666984
+    second: bulle_blanche_10
+  - first:
+      213: 4808895874016506046
+    second: bulle_blanche_11
+  - first:
+      213: -6687506748097941555
+    second: bulle_blanche_12
+  - first:
+      213: -1755098345113876824
+    second: bulle_blanche_13
+  - first:
+      213: -1948121834176060383
+    second: bulle_blanche_14
+  - first:
+      213: -1531627375057575444
+    second: bulle_blanche_15
+  - first:
+      213: 6115393761898138993
+    second: bulle_blanche_16
+  - first:
+      213: 3928878358225378632
+    second: bulle_blanche_17
+  - first:
+      213: 6565144751976411526
+    second: bulle_blanche_18
+  - first:
+      213: -4292338579839954312
+    second: bulle_blanche_19
+  - first:
+      213: 8085397038191336494
+    second: bulle_blanche_20
+  - first:
+      213: -4942385601118365594
+    second: bulle_blanche_21
+  - first:
+      213: -8094738751996348358
+    second: bulle_blanche_22
+  - first:
+      213: 346596486290081803
+    second: bulle_blanche_23
+  - first:
+      213: 8733978840550853593
+    second: bulle_blanche_24
+  - first:
+      213: -5504640431185313070
+    second: bulle_blanche_25
+  - first:
+      213: 2603814021058238150
+    second: bulle_blanche_26
+  - first:
+      213: 3706356230877735770
+    second: bulle_blanche_27
+  - first:
+      213: -6997993682485257601
+    second: bulle_blanche_28
+  - first:
+      213: -4881428611298650863
+    second: bulle_blanche_29
+  - first:
+      213: 6060637389066283846
+    second: bulle_blanche_30
+  - first:
+      213: -8493755018713306956
+    second: bulle_blanche_31
+  - first:
+      213: 337095668895937926
+    second: bulle_blanche_32
+  - first:
+      213: 621015740979787083
+    second: bulle_blanche_33
+  - first:
+      213: -2838158648389456294
+    second: bulle_blanche_34
+  - first:
+      213: 4134019976651017484
+    second: bulle_blanche_35
+  - first:
+      213: 4414403461755608733
+    second: bulle_blanche_36
+  - first:
+      213: 2510365943411057724
+    second: bulle_blanche_37
+  - first:
+      213: -1236048665909455635
+    second: bulle_blanche_38
+  - first:
+      213: 7007616858621266499
+    second: bulle_blanche_39
+  - first:
+      213: -867251887048472018
+    second: bulle_blanche_40
+  - first:
+      213: 4717272928051739224
+    second: bulle_blanche_41
+  - first:
+      213: 4935335534818923552
+    second: bulle_blanche_42
+  - first:
+      213: -6302492564977207961
+    second: bulle_blanche_43
+  - first:
+      213: 6364651724302184387
+    second: bulle_blanche_44
+  - first:
+      213: -3152794514631500548
+    second: bulle_blanche_45
+  - first:
+      213: -4255654173719440449
+    second: bulle_blanche_46
+  - first:
+      213: 795331014412137988
+    second: bulle_blanche_47
+  - first:
+      213: -1239747594560022512
+    second: bulle_blanche_48
+  - first:
+      213: -6533687551967856016
+    second: bulle_blanche_49
+  - first:
+      213: -933679766897181382
+    second: bulle_blanche_50
+  - first:
+      213: -2814138698967379460
+    second: bulle_blanche_51
+  - first:
+      213: 102735711234057776
+    second: bulle_blanche_52
+  - first:
+      213: 119951044309044641
+    second: bulle_blanche_53
+  - first:
+      213: 5358690911573651256
+    second: bulle_blanche_54
+  - first:
+      213: 3495724645134325831
+    second: bulle_blanche_55
+  - first:
+      213: 3701074260969706429
+    second: bulle_blanche_56
+  - first:
+      213: -5206781544557039646
+    second: bulle_blanche_57
+  - first:
+      213: -4661930033890465382
+    second: bulle_blanche_58
+  - first:
+      213: 1231709854363191618
+    second: bulle_blanche_59
+  - first:
+      213: 317003160290365817
+    second: bulle_blanche_60
+  - first:
+      213: -4411650213801891935
+    second: bulle_blanche_61
+  - first:
+      213: 2644126496334619242
+    second: bulle_blanche_62
+  - first:
+      213: -8076928523064021358
+    second: bulle_blanche_63
+  - first:
+      213: -5952065218203588109
+    second: bulle_blanche_64
+  - first:
+      213: -6162030452220198166
+    second: bulle_blanche_65
+  - first:
+      213: 2590720433742604187
+    second: bulle_blanche_66
+  - first:
+      213: -5148806479294621593
+    second: bulle_blanche_67
+  - first:
+      213: -8515810456355513540
+    second: bulle_blanche_68
+  - first:
+      213: 6517571575486900044
+    second: bulle_blanche_69
+  - first:
+      213: -158543902514578841
+    second: bulle_blanche_70
+  - first:
+      213: -6647883116599876556
+    second: bulle_blanche_71
+  - first:
+      213: 2875331442894061643
+    second: bulle_blanche_72
+  - first:
+      213: 2864864652223896384
+    second: bulle_blanche_73
+  - first:
+      213: -7600276006859798100
+    second: bulle_blanche_74
+  - first:
+      213: -1331951293663634334
+    second: bulle_blanche_75
+  - first:
+      213: -1085203994730736571
+    second: bulle_blanche_76
+  - first:
+      213: -6586929241957002530
+    second: bulle_blanche_77
+  - first:
+      213: -6387593316938414862
+    second: bulle_blanche_78
+  - first:
+      213: -2681451522212999353
+    second: bulle_blanche_79
+  - first:
+      213: 2268199591109159970
+    second: bulle_blanche_80
+  - first:
+      213: 3568587178514873554
+    second: bulle_blanche_81
+  - first:
+      213: -1406545572192930810
+    second: bulle_blanche_82
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bulle_blanche_0
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 188
+        width: 2166
+        height: 2293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26be7939df328ea60800000000000000
+      internalID: 7703446734627138402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_1
+      rect:
+        serializedVersion: 2
+        x: 2221
+        y: 2446
+        width: 230
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff783ba26d8bf36c0800000000000000
+      internalID: -4161404300688128001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_2
+      rect:
+        serializedVersion: 2
+        x: 2267
+        y: 2438
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540720d14ff715130800000000000000
+      internalID: 3553762267407478853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_3
+      rect:
+        serializedVersion: 2
+        x: 2270
+        y: 2431
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3b175693f1ca6e0800000000000000
+      internalID: -1825049417616346126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_4
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 2437
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9239d7c59e5404a60800000000000000
+      internalID: 7656196235111273257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_5
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 2415
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53dcbd4f90f45e70800000000000000
+      internalID: 9103165313817301853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_6
+      rect:
+        serializedVersion: 2
+        x: 2289
+        y: 2435
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e48e706e2d1afd0800000000000000
+      internalID: -2332351246584230341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_7
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 2435
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2dd9711f04d445c0800000000000000
+      internalID: -4232024588638626513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_8
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 2425
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d84f3424d705110800000000000000
+      internalID: 1247634820343041291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_9
+      rect:
+        serializedVersion: 2
+        x: 2276
+        y: 2429
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7965be66ea1609b0800000000000000
+      internalID: -5114370749830436483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_10
+      rect:
+        serializedVersion: 2
+        x: 2253
+        y: 2418
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d391c76e73ac3cc0800000000000000
+      internalID: -3729926628067666984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_11
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 2419
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0789c9151acb240800000000000000
+      internalID: 4808895874016506046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_12
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 2409
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf28966b043133a0800000000000000
+      internalID: -6687506748097941555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_13
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 2420
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a68c91aa53a4a7e0800000000000000
+      internalID: -1755098345113876824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_14
+      rect:
+        serializedVersion: 2
+        x: 3315
+        y: 1781
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124e0ce6381e6f4e0800000000000000
+      internalID: -1948121834176060383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_15
+      rect:
+        serializedVersion: 2
+        x: 3293
+        y: 1728
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1ed6d64019ebae0800000000000000
+      internalID: -1531627375057575444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_16
+      rect:
+        serializedVersion: 2
+        x: 3318
+        y: 1769
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d0497c93e3ed450800000000000000
+      internalID: 6115393761898138993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_17
+      rect:
+        serializedVersion: 2
+        x: 3337
+        y: 1733
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d5ebbfc0e268630800000000000000
+      internalID: 3928878358225378632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_18
+      rect:
+        serializedVersion: 2
+        x: 3315
+        y: 1705
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681f2984e541c1b50800000000000000
+      internalID: 6565144751976411526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_19
+      rect:
+        serializedVersion: 2
+        x: 3321
+        y: 1717
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8725fecadcc8e64c0800000000000000
+      internalID: -4292338579839954312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_20
+      rect:
+        serializedVersion: 2
+        x: 3514
+        y: 1693
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2cd36994c9153070800000000000000
+      internalID: 8085397038191336494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_21
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 1697
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668955e4b7e196bb0800000000000000
+      internalID: -4942385601118365594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_22
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1692
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a383ba92ef5b9af80800000000000000
+      internalID: -8094738751996348358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_23
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 1693
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0808bdfaab5fc400800000000000000
+      internalID: 346596486290081803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_24
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 1684
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dbcfca1b73553970800000000000000
+      internalID: 8733978840550853593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_25
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 1688
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d242f251b69b93b0800000000000000
+      internalID: -5504640431185313070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_26
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 1681
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c69b5a7e0b922420800000000000000
+      internalID: 2603814021058238150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_27
+      rect:
+        serializedVersion: 2
+        x: 3337
+        y: 1675
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5be588da5f9f6330800000000000000
+      internalID: 3706356230877735770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_28
+      rect:
+        serializedVersion: 2
+        x: 3349
+        y: 1677
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ad90f92d122ee90800000000000000
+      internalID: -6997993682485257601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_29
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 1654
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1159d1b7a8ea14cb0800000000000000
+      internalID: -4881428611298650863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_30
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1410
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b2fbf3895bb1450800000000000000
+      internalID: 6060637389066283846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_31
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 1392
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8e664ffce102a80800000000000000
+      internalID: -8493755018713306956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_32
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1354
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6857ddf89ba9da400800000000000000
+      internalID: 337095668895937926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_33
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1324
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45b601b68a4e9800800000000000000
+      internalID: 621015740979787083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_34
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1292
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e2b8a1fb5dc98d0800000000000000
+      internalID: -2838158648389456294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_35
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1280
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d07aa044dfe5930800000000000000
+      internalID: 4134019976651017484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_36
+      rect:
+        serializedVersion: 2
+        x: 3318
+        y: 1022
+        width: 69
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e92395f8c134d30800000000000000
+      internalID: 4414403461755608733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_37
+      rect:
+        serializedVersion: 2
+        x: 3380
+        y: 1222
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c342149668c96d220800000000000000
+      internalID: 2510365943411057724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_38
+      rect:
+        serializedVersion: 2
+        x: 3382
+        y: 1226
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de41f57894ca8dee0800000000000000
+      internalID: -1236048665909455635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_39
+      rect:
+        serializedVersion: 2
+        x: 3395
+        y: 1227
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ac82ca76e004160800000000000000
+      internalID: 7007616858621266499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_40
+      rect:
+        serializedVersion: 2
+        x: 3383
+        y: 1214
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a40bde007e6f3f0800000000000000
+      internalID: -867251887048472018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_41
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 995
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a37112cbe177140800000000000000
+      internalID: 4717272928051739224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_42
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 1012
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0249e383585dd7440800000000000000
+      internalID: 4935335534818923552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_43
+      rect:
+        serializedVersion: 2
+        x: 3415
+        y: 1026
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7653ef8776c0988a0800000000000000
+      internalID: -6302492564977207961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_44
+      rect:
+        serializedVersion: 2
+        x: 3433
+        y: 1025
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfeb1a9509c35850800000000000000
+      internalID: 6364651724302184387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_45
+      rect:
+        serializedVersion: 2
+        x: 3320
+        y: 986
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfcd699d7160f34d0800000000000000
+      internalID: -3152794514631500548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_46
+      rect:
+        serializedVersion: 2
+        x: 3322
+        y: 993
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb35b809311e0f4c0800000000000000
+      internalID: -4255654173719440449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_47
+      rect:
+        serializedVersion: 2
+        x: 3316
+        y: 978
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406f2e00855990b00800000000000000
+      internalID: 795331014412137988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_48
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 974
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018da1791288bcee0800000000000000
+      internalID: -1239747594560022512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_49
+      rect:
+        serializedVersion: 2
+        x: 3318
+        y: 967
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a7097d9cda355a0800000000000000
+      internalID: -6533687551967856016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_50
+      rect:
+        serializedVersion: 2
+        x: 3359
+        y: 963
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3dbf18e237ea03f0800000000000000
+      internalID: -933679766897181382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_51
+      rect:
+        serializedVersion: 2
+        x: 3316
+        y: 949
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf19e5363cb22f8d0800000000000000
+      internalID: -2814138698967379460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_52
+      rect:
+        serializedVersion: 2
+        x: 3321
+        y: 955
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0366ad5c59dfc6100800000000000000
+      internalID: 102735711234057776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_53
+      rect:
+        serializedVersion: 2
+        x: 3373
+        y: 957
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad4a7ad6d62aa100800000000000000
+      internalID: 119951044309044641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_54
+      rect:
+        serializedVersion: 2
+        x: 3408
+        y: 945
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f26751ef4ed5a40800000000000000
+      internalID: 5358690911573651256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_55
+      rect:
+        serializedVersion: 2
+        x: 3314
+        y: 914
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7485fc92b0f438030800000000000000
+      internalID: 3495724645134325831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_56
+      rect:
+        serializedVersion: 2
+        x: 3326
+        y: 927
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3d0746e6bdc5330800000000000000
+      internalID: 3701074260969706429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_57
+      rect:
+        serializedVersion: 2
+        x: 3342
+        y: 928
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef2e9d95cbcdb7b0800000000000000
+      internalID: -5206781544557039646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_58
+      rect:
+        serializedVersion: 2
+        x: 3320
+        y: 900
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99eb3a855f7d4fb0800000000000000
+      internalID: -4661930033890465382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_59
+      rect:
+        serializedVersion: 2
+        x: 3327
+        y: 902
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2498aaf2699e71110800000000000000
+      internalID: 1231709854363191618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_60
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 895
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97198c9d1b8366400800000000000000
+      internalID: 317003160290365817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_61
+      rect:
+        serializedVersion: 2
+        x: 3342
+        y: 897
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7ef05218ba6c2c0800000000000000
+      internalID: -4411650213801891935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_62
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 890
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62293b0a03d1b420800000000000000
+      internalID: 2644126496334619242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_63
+      rect:
+        serializedVersion: 2
+        x: 3348
+        y: 889
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e6c8a3d4cf8ef80800000000000000
+      internalID: -8076928523064021358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_64
+      rect:
+        serializedVersion: 2
+        x: 3351
+        y: 890
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9640d2834066da0800000000000000
+      internalID: -5952065218203588109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_65
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 894
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2864893f11c7aa0800000000000000
+      internalID: -6162030452220198166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_66
+      rect:
+        serializedVersion: 2
+        x: 3314
+        y: 869
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97e29d128614f320800000000000000
+      internalID: 2590720433742604187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_67
+      rect:
+        serializedVersion: 2
+        x: 3322
+        y: 877
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7681a6069c3cb88b0800000000000000
+      internalID: -5148806479294621593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_68
+      rect:
+        serializedVersion: 2
+        x: 3322
+        y: 870
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b5f563283c1d980800000000000000
+      internalID: -8515810456355513540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_69
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 867
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47641bf0d0137a50800000000000000
+      internalID: 6517571575486900044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_70
+      rect:
+        serializedVersion: 2
+        x: 3353
+        y: 858
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a7051292dbccdf0800000000000000
+      internalID: -158543902514578841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_71
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 858
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4346fb60789fdb3a0800000000000000
+      internalID: -6647883116599876556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_72
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 843
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40463196ba37e720800000000000000
+      internalID: 2875331442894061643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_73
+      rect:
+        serializedVersion: 2
+        x: 3347
+        y: 846
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04bd065f83b02c720800000000000000
+      internalID: 2864864652223896384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_74
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 835
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca982306d35668690800000000000000
+      internalID: -7600276006859798100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_75
+      rect:
+        serializedVersion: 2
+        x: 3342
+        y: 832
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c9e0bfa55f38de0800000000000000
+      internalID: -1331951293663634334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_76
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 401
+        width: 137
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5445d3967b490f0f0800000000000000
+      internalID: -1085203994730736571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_77
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 237
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed21584e0c68694a0800000000000000
+      internalID: -6586929241957002530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_78
+      rect:
+        serializedVersion: 2
+        x: 2257
+        y: 233
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f40a3e98b5ba57a0800000000000000
+      internalID: -6387593316938414862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_79
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 225
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f40182c0299cad0800000000000000
+      internalID: -2681451522212999353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_80
+      rect:
+        serializedVersion: 2
+        x: 2273
+        y: 227
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c6fbbb2834a7f10800000000000000
+      internalID: 2268199591109159970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_81
+      rect:
+        serializedVersion: 2
+        x: 2291
+        y: 228
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc7465b12b268130800000000000000
+      internalID: 3568587178514873554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bulle_blanche_82
+      rect:
+        serializedVersion: 2
+        x: 2291
+        y: 224
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604ba091142fa7ce0800000000000000
+      internalID: -1406545572192930810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
