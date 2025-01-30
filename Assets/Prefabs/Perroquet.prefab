@@ -8,6 +8,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5972604747557092, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
+      propertyPath: soapValue
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972604747557092, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
+      propertyPath: croquetteValue
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 539924595477119796, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 539924595477119796, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 539924595477119796, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 539924595477119796, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -50,7 +70,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7025723812671729328, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
       propertyPath: m_Name
-      value: Poule
+      value: Perroquet
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7a96169bccfeb214b9bbb66f574336c6
+guid: e78287f60febb0a4786aa8b487bb4cc1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7738323773995771236
-    second: Bubulle_Dialogue_alep_0
+      213: 7366393777426302075
+    second: thumbnail_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bubulle_Dialogue_alep_0
+      name: thumbnail_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 40
-        width: 1256
-        height: 926
+        x: 0
+        y: 0
+        width: 390
+        height: 299
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c9a9506e683fb9490800000000000000
-      internalID: -7738323773995771236
+      spriteID: b74842b9c10ba3660800000000000000
+      internalID: 7366393777426302075
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bubulle_Dialogue_alep_0: -7738323773995771236
+      thumbnail_0: 7366393777426302075
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
