@@ -68,7 +68,12 @@ namespace BubbleGame.Core
             player.Croquette += croquetteToAdd;
             player.Soap += soapToAdd;
             refreshTMP.RefreshTMPS();
-            Destroy(ats.gameObject);
+            Die(ats.gameObject);
+        }
+
+        public void Die(GameObject atd)
+        {
+            Destroy(atd.gameObject);
         }
 
         public void Merge(Animal a, Animal b)
