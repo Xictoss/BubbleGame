@@ -8,9 +8,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5223417329953179620, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.4285715
+      objectReference: {fileID: 0}
+    - target: {fileID: -5223417329953179620, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.4285715
+      objectReference: {fileID: 0}
     - target: {fileID: 5972604747557092, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
       propertyPath: soapValue
-      value: 81920
+      value: 368640
       objectReference: {fileID: 0}
     - target: {fileID: 5972604747557092, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
       propertyPath: croquetteValue
@@ -71,6 +79,22 @@ PrefabInstance:
     - target: {fileID: 7025723812671729328, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
       propertyPath: m_Name
       value: Hamster
+      objectReference: {fileID: 0}
+    - target: {fileID: 8367511869799188267, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c27a86d9b58df8148b61bcf59ee0e31a, type: 3}
+    - target: {fileID: 8367511869799188267, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8367511869799188267, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8367511869799188267, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
