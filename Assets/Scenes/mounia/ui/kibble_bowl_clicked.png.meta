@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: c65c86c4a94726b458625b13464b3054
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1258924885398013790
+    second: kibble_bowl_clicked_0
+  - first:
+      213: -4558243738296414230
+    second: kibble_bowl_clicked_1
+  - first:
+      213: -1097931402906692352
+    second: kibble_bowl_clicked_2
+  - first:
+      213: -6203797532813301269
+    second: kibble_bowl_clicked_3
+  - first:
+      213: 501584204877419659
+    second: kibble_bowl_clicked_4
+  - first:
+      213: -2144438787673159519
+    second: kibble_bowl_clicked_5
+  - first:
+      213: 4062129654262516966
+    second: kibble_bowl_clicked_6
+  - first:
+      213: -8528593863206261038
+    second: kibble_bowl_clicked_7
+  - first:
+      213: -6333092715437180618
+    second: kibble_bowl_clicked_8
+  - first:
+      213: 5508838743392656010
+    second: kibble_bowl_clicked_9
+  - first:
+      213: -8929959178946385846
+    second: kibble_bowl_clicked_10
+  - first:
+      213: -4577456656589380799
+    second: kibble_bowl_clicked_11
+  - first:
+      213: 117135889660912385
+    second: kibble_bowl_clicked_12
+  - first:
+      213: 1972275238710474058
+    second: kibble_bowl_clicked_13
+  - first:
+      213: 5363893004585079516
+    second: kibble_bowl_clicked_14
+  - first:
+      213: -5388648353701284726
+    second: kibble_bowl_clicked_15
+  - first:
+      213: -1071905345183321035
+    second: kibble_bowl_clicked_16
+  - first:
+      213: 9152037633522331816
+    second: kibble_bowl_clicked_17
+  - first:
+      213: 4512825211139508525
+    second: kibble_bowl_clicked_18
+  - first:
+      213: -1593226675956210943
+    second: kibble_bowl_clicked_19
+  - first:
+      213: -399407028120991790
+    second: kibble_bowl_clicked_20
+  - first:
+      213: 2696812346487055041
+    second: kibble_bowl_clicked_21
+  - first:
+      213: 8383547808291242781
+    second: kibble_bowl_clicked_22
+  - first:
+      213: 6240781568617916121
+    second: kibble_bowl_clicked_23
+  - first:
+      213: 8214258505372897441
+    second: kibble_bowl_clicked_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_0
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 362
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8b3fe9c76678ee0800000000000000
+      internalID: -1258924885398013790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 321
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef813b787dddb0c0800000000000000
+      internalID: -4558243738296414230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_2
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 328
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0051006c43d53c0f0800000000000000
+      internalID: -1097931402906692352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 293
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9e736530fa7e9a0800000000000000
+      internalID: -6203797532813301269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_4
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 297
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b845aa44d2cf5f600800000000000000
+      internalID: 501584204877419659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_5
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 276
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a80c2ac84c6d32e0800000000000000
+      internalID: -2144438787673159519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_6
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 269
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecc5e106659f5830800000000000000
+      internalID: 4062129654262516966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_7
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 277
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dea30e511954a980800000000000000
+      internalID: -8528593863206261038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_8
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 260
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639b0cebab55c18a0800000000000000
+      internalID: -6333092715437180618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_9
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 270
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a14d866a3537c40800000000000000
+      internalID: 5508838743392656010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_10
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 263
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4869209079621480800000000000000
+      internalID: -8929959178946385846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_11
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 234
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1432e395c6b9970c0800000000000000
+      internalID: -4577456656589380799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_12
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 251
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10320b5987620a100800000000000000
+      internalID: 117135889660912385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_13
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 240
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45f2aa41edee5b10800000000000000
+      internalID: 1972275238710474058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_14
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 228
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd21f7fb440607a40800000000000000
+      internalID: 5363893004585079516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_15
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 219
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8434226fdca735b0800000000000000
+      internalID: -5388648353701284726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_16
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 227
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534718b84c3df11f0800000000000000
+      internalID: -1071905345183321035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_17
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 221
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0fa15fcb1920f70800000000000000
+      internalID: 9152037633522331816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_18
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 216
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29c56b9e96c0ae30800000000000000
+      internalID: 4512825211139508525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_19
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 211
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10324fc87c8b3e9e0800000000000000
+      internalID: -1593226675956210943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_20
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 212
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7cd009c65057af0800000000000000
+      internalID: -399407028120991790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_21
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 345
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2af327a800d6520800000000000000
+      internalID: 2696812346487055041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_22
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 207
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1344be4058585470800000000000000
+      internalID: 8383547808291242781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_23
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 209
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6a64685c5bb9650800000000000000
+      internalID: 6240781568617916121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kibble_bowl_clicked_24
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 200
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a09bf1f698eef170800000000000000
+      internalID: 8214258505372897441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      kibble_bowl_clicked_0: -1258924885398013790
+      kibble_bowl_clicked_1: -4558243738296414230
+      kibble_bowl_clicked_10: -8929959178946385846
+      kibble_bowl_clicked_11: -4577456656589380799
+      kibble_bowl_clicked_12: 117135889660912385
+      kibble_bowl_clicked_13: 1972275238710474058
+      kibble_bowl_clicked_14: 5363893004585079516
+      kibble_bowl_clicked_15: -5388648353701284726
+      kibble_bowl_clicked_16: -1071905345183321035
+      kibble_bowl_clicked_17: 9152037633522331816
+      kibble_bowl_clicked_18: 4512825211139508525
+      kibble_bowl_clicked_19: -1593226675956210943
+      kibble_bowl_clicked_2: -1097931402906692352
+      kibble_bowl_clicked_20: -399407028120991790
+      kibble_bowl_clicked_21: 2696812346487055041
+      kibble_bowl_clicked_22: 8383547808291242781
+      kibble_bowl_clicked_23: 6240781568617916121
+      kibble_bowl_clicked_24: 8214258505372897441
+      kibble_bowl_clicked_3: -6203797532813301269
+      kibble_bowl_clicked_4: 501584204877419659
+      kibble_bowl_clicked_5: -2144438787673159519
+      kibble_bowl_clicked_6: 4062129654262516966
+      kibble_bowl_clicked_7: -8528593863206261038
+      kibble_bowl_clicked_8: -6333092715437180618
+      kibble_bowl_clicked_9: 5508838743392656010
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -6,21 +6,21 @@ namespace BubbleGame.Core.MenuSystem
 {
     public class MenuManager : MonoBehaviour
     {
-        [SerializeField] private GameObject _image;
+        [SerializeField] private GameObject _creditImage;
         
         public void Play()
         {
-            SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene("TutoScene");
         }
 
-        public void HowToPlay()
+        public void Credits()
         {
-            _image.SetActive(true);
+            _creditImage.SetActive(true);
         }
 
         public void Cross()
         {
-            _image.SetActive(false);
+            _creditImage.SetActive(false);
         }
         
         public void Quit()
