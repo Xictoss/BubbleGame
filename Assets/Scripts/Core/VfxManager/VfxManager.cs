@@ -6,10 +6,10 @@ namespace BubbleGame.Core.VfxManager
 {
     public class VfxManager : MonoBehaviour
     {
-        public VisualEffect vfxPrefab; // Assigner le prefab du VFX ici dans l'inspecteur
+        public VisualEffect vfxPrefab;
         private Camera mainCamera;
 
-        void Start()
+        private void Start()
         {
             mainCamera = Camera.main;
 
@@ -19,29 +19,23 @@ namespace BubbleGame.Core.VfxManager
             }
         }
 
-        void Update()
+        private void Update()
         {
-            if (Input.GetMouseButtonDown(0)) // Détection du clic gauche de la souris
+            if (Input.GetMouseButtonDown(0))
             {
-                Debug.Log("Clic détecté");
                 PlayVFXAtMousePosition();
             }
         }
 
-        void PlayVFXAtMousePosition()
+        public void PlayVFXAtMousePosition()
         {
             Vector3 mousePosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
             mousePosition.z = 0;
-
-            Debug.Log($"Position de la souris : {mousePosition}");
             
             VisualEffect vfxInstance = Instantiate(vfxPrefab, mousePosition, Quaternion.identity);
             if (vfxInstance != null)
             {
                 vfxInstance.Play(); 
-                Debug.Log("VFX instancié et joué");
-
-                
                 StartCoroutine(DestroyVFXAfterDelay(vfxInstance, 1.5f));
             }
             else
@@ -52,12 +46,20 @@ namespace BubbleGame.Core.VfxManager
 
         IEnumerator DestroyVFXAfterDelay(VisualEffect vfx, float delay)
         {
-            // Attendre 1 seconde (ou autre valeur définie)
             yield return new WaitForSeconds(delay);
-
-            // Détruire le GameObject du VFX après le délai
             Destroy(vfx.gameObject);
-            Debug.Log("VFX détruit après 1 seconde");
+        }
+
+        public void VFX(VisualEffect vfx, Vector3 position, float delayAfterDestroyVfx)
+        {
+            VisualEffect vfxToSpawn = Instantiate(vfx, position, Quaternion.identity);
+
+            if (vfx != null)
+            {
+                vfx.Play();
+                Destroy(vfx.gameObject, delayAfterDestroyVfx);
+                
+            }
         }
     }
 }

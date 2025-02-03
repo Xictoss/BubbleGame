@@ -6,14 +6,20 @@ namespace BubbleGame.Core
 {
     public class UpgradeSystem : MonoBehaviour
     {
+        [SerializeField] private GameObject upgradeButton;
+        [SerializeField] private GameObject levelUpButton;
+        
+        [Header("Upgrade Values")]
+        
         [SerializeField] private float upgradePower = 1.5f;
         [SerializeField] private float levelCostMultiplier = 2.5f;
         [SerializeField] private float animalPriceMultiplier = 2f;
-        [SerializeField] private GameObject upgradeButton;
-        [SerializeField] private GameObject levelUpButton;
         public int upgradeLevelCost = 1000;
         public int upgradeCroquetteCost = 100;
+        public int upgradeClickerCost = 10;
+        
         [Header("Scripts refs")]
+        
         [SerializeField] private SpawnSystem spawnSystem;
         
         private SoapGenerator _soapGenerator;
@@ -59,6 +65,11 @@ namespace BubbleGame.Core
             {
                 levelUpButton.transform.DOShakePosition(1, Vector3.left, 100);
             }
+        }
+
+        public void OnTryToUpgradeClicker()
+        {
+            
         }
     }
 }
