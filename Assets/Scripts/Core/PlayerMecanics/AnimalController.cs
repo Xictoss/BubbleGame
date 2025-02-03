@@ -1,14 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Globalization;
+using System.Collections;
 using System.Linq;
 using DG.Tweening;
-using Unity.VisualScripting.YamlDotNet.Core.Tokens;
-using UnityEditor;
 using UnityEngine;
+using UnityEngine.VFX;
 using Random = UnityEngine.Random;
 
-namespace BubbleGame.Core
+namespace BubbleGame.Core.PlayerMecanics
 {
     public class AnimalController : MonoBehaviour
     {
@@ -18,7 +15,10 @@ namespace BubbleGame.Core
 
         private float currentTime;
         [SerializeField]
-        public float timeBeforeAutoMerge = 10;
+        public float timeBeforeAutoMerge = 2;
+
+        [SerializeField] private VisualEffect visualDieEffect;
+        [SerializeField] private VisualEffect visualMergeEffect;
         private void Awake()
         {
             spawnSystem = GetComponent<SpawnSystem>();
@@ -73,7 +73,28 @@ namespace BubbleGame.Core
 
         public void Die(GameObject atd)
         {
+            PlayVFXAtAnimalPosition(atd, visualDieEffect);
             Destroy(atd.gameObject);
+        }
+
+        private void PlayVFXAtAnimalPosition(GameObject atd, VisualEffect visualEffect)
+        {
+            Vector3 position = atd.transform.position;
+            
+            VisualEffect vfxToSpawn = Instantiate(visualEffect, position, Quaternion.identity);
+
+            if (vfxToSpawn != null)
+            {
+                vfxToSpawn.Play();
+                StartCoroutine(DestroyVFXAfterDelay(vfxToSpawn, 1.5f));
+            }
+        }
+
+        IEnumerator DestroyVFXAfterDelay(VisualEffect vfxToSpawn, float delay)
+        {
+            yield return new WaitForSeconds(delay);
+            Destroy(vfxToSpawn.gameObject);
+            Debug.Log("VFX détruit après 1 seconde");
         }
 
         public void Merge(Animal a, Animal b)
@@ -90,11 +111,14 @@ namespace BubbleGame.Core
             Transform bTransform = b.transform;
             
             Vector3 center = (aPosition + bPosition) * 0.5f;
-            aTransform.DOMove(center, 1);
-            bTransform.DOMove(center, 1).OnComplete(() =>
+            aTransform.DOMove(center, 0.5f);
+            bTransform.DOMove(center, 0.5f).OnComplete(() =>
             {
+                Vector3 PositionToSpawnVFX = a.transform.position;
                 Destroy(a.gameObject);
                 Destroy(b.gameObject);
+                PlayVFXAtMerge(PositionToSpawnVFX, visualMergeEffect );
+
             
                 if (spawnSystem.IsIndexValid(newIndex))
                 { 
@@ -107,6 +131,18 @@ namespace BubbleGame.Core
                     
                 }
             });
+            void PlayVFXAtMerge(Vector3 atd, VisualEffect visualEffect)
+            {
+                Vector3 position = atd;
+            
+                VisualEffect vfxToSpawn = Instantiate(visualEffect, position, Quaternion.identity);
+
+                if (vfxToSpawn != null)
+                {
+                    vfxToSpawn.Play();
+                    StartCoroutine(DestroyVFXAfterDelay(vfxToSpawn, 1.5f));
+                }
+            }
         }
     }   
         

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -21,7 +22,7 @@ namespace BubbleGame.Core
         public void ButtonNext1()
         {
             dialogueBox1.SetActive(false);
-            dialogueBox2.SetActive(true); 
+            dialogueBox2.SetActive(true);
         }
         
         public void ButtonNext2()
