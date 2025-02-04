@@ -16,7 +16,7 @@ namespace BubbleGame.Core
         [SerializeField] private float animalPriceMultiplier = 2f;
         public int upgradeLevelCost = 1000;
         public int upgradeCroquetteCost = 100;
-        public int upgradeClickerCost = 10;
+        public int upgradeAutoClickerCost = 10;
         
         [Header("Scripts refs")]
         
@@ -67,9 +67,13 @@ namespace BubbleGame.Core
             }
         }
 
-        public void OnTryToUpgradeClicker()
+        public void OnTryToUpgradeAutoClicker()
         {
-            
+            if (_player.Soap >= upgradeAutoClickerCost)
+            {
+                _player.Soap -= upgradeAutoClickerCost;
+                upgradeAutoClickerCost = Mathf.CeilToInt(upgradeAutoClickerCost * 1.6f);
+            }
         }
     }
 }
