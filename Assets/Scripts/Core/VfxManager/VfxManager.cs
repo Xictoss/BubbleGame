@@ -2,11 +2,11 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.VFX;
 
-namespace BubbleGame.Core.VfxManager
+namespace BubbleGame.Core
 {
     public class VfxManager : MonoBehaviour
     {
-        public VisualEffect vfxPrefab;
+        public ParticleSystem vfxPrefab;
         private Camera mainCamera;
 
         private void Start()
@@ -23,41 +23,21 @@ namespace BubbleGame.Core.VfxManager
         {
             if (Input.GetMouseButtonDown(0))
             {
-                PlayVFXAtMousePosition();
+                Vector3 mousePosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
+                mousePosition.z = 0;
+                //PlayVFXAtMousePosition();
+                VFX(vfxPrefab, mousePosition, 1.5f);
             }
         }
 
-        public void PlayVFXAtMousePosition()
+        public void VFX(ParticleSystem vfxPrefab, Vector3 position, float delayAfterDestroyVfx)
         {
-            Vector3 mousePosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
-            mousePosition.z = 0;
-            
-            VisualEffect vfxInstance = Instantiate(vfxPrefab, mousePosition, Quaternion.identity);
-            if (vfxInstance != null)
-            {
-                vfxInstance.Play(); 
-                StartCoroutine(DestroyVFXAfterDelay(vfxInstance, 1.5f));
-            }
-            else
-            {
-                Debug.LogError("Impossible d'instancier le VFX");
-            }
-        }
-
-        IEnumerator DestroyVFXAfterDelay(VisualEffect vfx, float delay)
-        {
-            yield return new WaitForSeconds(delay);
-            Destroy(vfx.gameObject);
-        }
-
-        public void VFX(VisualEffect vfx, Vector3 position, float delayAfterDestroyVfx)
-        {
-            VisualEffect vfxToSpawn = Instantiate(vfx, position, Quaternion.identity);
+            ParticleSystem vfxToSpawn = Instantiate(vfxPrefab, position, Quaternion.identity);
 
             if (vfxToSpawn != null)
             {
-                vfx.Play();
-                Destroy(vfx.gameObject, delayAfterDestroyVfx);
+                vfxToSpawn.Play();
+                Destroy(vfxToSpawn.gameObject, delayAfterDestroyVfx);
                 
             }
         }
