@@ -17,6 +17,12 @@ namespace BubbleGame.Core.PlayerMecanics
         private float currentTime;
         [SerializeField]
         public float timeBeforeAutoMerge = 2;
+
+        [SerializeField] 
+        private ParticleSystem mergeParticles;
+        [SerializeField]
+        private ParticleSystem sellParticles;
+        
         
         private void Awake()
         {
@@ -72,8 +78,9 @@ namespace BubbleGame.Core.PlayerMecanics
 
         public void Die(GameObject atd)
         {
-            //PlayVFXAtAnimalPosition(atd, visualDieEffect);
+            Vector3 pos = atd.transform.position;
             Destroy(atd.gameObject);
+            //vfxManager.VFX(sellParticles, pos, 1.5f);
         }
         
 
@@ -97,6 +104,7 @@ namespace BubbleGame.Core.PlayerMecanics
                 Vector3 PositionToSpawnVFX = a.transform.position;
                 Destroy(a.gameObject);
                 Destroy(b.gameObject);
+                //vfxManager.VFX(sellParticles, PositionToSpawnVFX, 1.5f);
                 //PlayVFXAtMerge(PositionToSpawnVFX, visualMergeEffect );
 
             
