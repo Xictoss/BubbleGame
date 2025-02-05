@@ -1,0 +1,742 @@
+fileFormatVersion: 2
+guid: d256f8d91121ad64bb82e400b40c76e0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1719058968737282150
+    second: gamelle_croquettes_clicked_0
+  - first:
+      213: 8304147122980014665
+    second: gamelle_croquettes_clicked_1
+  - first:
+      213: -8026657634059590443
+    second: gamelle_croquettes_clicked_2
+  - first:
+      213: 8248823434556931510
+    second: gamelle_croquettes_clicked_3
+  - first:
+      213: 8771541377981620243
+    second: gamelle_croquettes_clicked_4
+  - first:
+      213: -6210262762860921363
+    second: gamelle_croquettes_clicked_5
+  - first:
+      213: 1880656945217953263
+    second: gamelle_croquettes_clicked_6
+  - first:
+      213: -3697324600760092440
+    second: gamelle_croquettes_clicked_7
+  - first:
+      213: -1834208471436706096
+    second: gamelle_croquettes_clicked_8
+  - first:
+      213: 5367205829202431117
+    second: gamelle_croquettes_clicked_9
+  - first:
+      213: 3939397034408061984
+    second: gamelle_croquettes_clicked_10
+  - first:
+      213: 6094219354741318227
+    second: gamelle_croquettes_clicked_11
+  - first:
+      213: -524559890623270657
+    second: gamelle_croquettes_clicked_12
+  - first:
+      213: -2051407959523610026
+    second: gamelle_croquettes_clicked_13
+  - first:
+      213: 7049488499109283704
+    second: gamelle_croquettes_clicked_14
+  - first:
+      213: -6718798134659491050
+    second: gamelle_croquettes_clicked_15
+  - first:
+      213: -607584710511906910
+    second: gamelle_croquettes_clicked_16
+  - first:
+      213: -3407384368015360035
+    second: gamelle_croquettes_clicked_17
+  - first:
+      213: 1708349270889153364
+    second: gamelle_croquettes_clicked_18
+  - first:
+      213: 5416588012313705910
+    second: gamelle_croquettes_clicked_19
+  - first:
+      213: 7068736780239180849
+    second: gamelle_croquettes_clicked_20
+  - first:
+      213: -6965384106362950357
+    second: gamelle_croquettes_clicked_21
+  - first:
+      213: 1253956768455394357
+    second: gamelle_croquettes_clicked_22
+  - first:
+      213: -8342535746274303331
+    second: gamelle_croquettes_clicked_23
+  - first:
+      213: -3123644183831380844
+    second: gamelle_croquettes_clicked_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_0
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 385
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668f88b26035bd710800000000000000
+      internalID: 1719058968737282150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 344
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a4ec3afc14e3370800000000000000
+      internalID: 8304147122980014665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 351
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4633ca8659b9090800000000000000
+      internalID: -8026657634059590443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_3
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 316
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bdfea7a535b97270800000000000000
+      internalID: 8248823434556931510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_4
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 320
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3102c3fd866cab970800000000000000
+      internalID: 8771541377981620243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_5
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 299
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedb6d9abe6b0d9a0800000000000000
+      internalID: -6210262762860921363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_6
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 292
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed561c078f691a10800000000000000
+      internalID: 1880656945217953263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_7
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 300
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8b1686dd670bcc0800000000000000
+      internalID: -3697324600760092440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_8
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 283
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0deb0000d159b86e0800000000000000
+      internalID: -1834208471436706096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_9
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 293
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c4406d3452c7a40800000000000000
+      internalID: 5367205829202431117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_10
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 286
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02cae112bbc8ba630800000000000000
+      internalID: 3939397034408061984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_11
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 257
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352aaaee634039450800000000000000
+      internalID: 6094219354741318227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_12
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 274
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff07bf70f8368b8f0800000000000000
+      internalID: -524559890623270657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_13
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 263
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652bf23645fe783e0800000000000000
+      internalID: -2051407959523610026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_14
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 251
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8774c9da070d4d160800000000000000
+      internalID: 7049488499109283704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_15
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 242
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b501ab1b802c2a0800000000000000
+      internalID: -6718798134659491050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_16
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 250
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afaaf6ccec6197f0800000000000000
+      internalID: -607584710511906910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_17
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 244
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddfb93b68f986b0d0800000000000000
+      internalID: -3407384368015360035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_18
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 239
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45345a35c9645b710800000000000000
+      internalID: 1708349270889153364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_19
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 234
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bdf89059169b2b40800000000000000
+      internalID: 5416588012313705910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_20
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 235
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13415ec56a2391260800000000000000
+      internalID: 7068736780239180849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_21
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 23
+        width: 345
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2da5183f0cf55f90800000000000000
+      internalID: -6965384106362950357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_22
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 230
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5340b738903f66110800000000000000
+      internalID: 1253956768455394357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_23
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 232
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92625d70fb593c80800000000000000
+      internalID: -8342535746274303331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gamelle_croquettes_clicked_24
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 223
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49cf3022a2696a4d0800000000000000
+      internalID: -3123644183831380844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
