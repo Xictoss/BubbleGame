@@ -54,12 +54,14 @@ namespace BubbleGame.Core.VfxManager
         {
             VisualEffect vfxToSpawn = Instantiate(vfx, position, Quaternion.identity);
 
-            if (vfx != null)
+            if (vfxToSpawn != null)
             {
                 vfx.Play();
                 Destroy(vfx.gameObject, delayAfterDestroyVfx);
                 
             }
         }
+        
+        
     }
 }
