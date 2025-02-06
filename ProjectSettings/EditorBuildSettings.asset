@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/GameScenes/TutoScene.unity
     guid: a8def865ed327924a8b27f0f75b12fbd
   - enabled: 1
-    path: Assets/Scenes/Dylan/DylanScene.unity
+    path: Assets/Scenes/Dylan/GameScene.unity
     guid: 282ecd86cae85a84c9f57c27211bf3b1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

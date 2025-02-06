@@ -80,7 +80,7 @@ namespace BubbleGame.Core
         
         public void ButtonPlayInDialogue()
         {
-            SceneManager.LoadScene("DylanScene");
+            SceneManager.LoadScene("GameScene");
         }
     }
 }
