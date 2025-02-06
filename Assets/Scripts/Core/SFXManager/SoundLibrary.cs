@@ -1,7 +1,7 @@
 using UnityEngine;
 
 
-namespace BubbleGame.Core.SFXManager
+namespace BubbleGame.Core
 {
     [System.Serializable]
     public struct SoundEffect

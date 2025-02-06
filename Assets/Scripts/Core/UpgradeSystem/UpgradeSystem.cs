@@ -1,4 +1,3 @@
-using BubbleGame.Core.SFXManager;
 using BubbleGame.Core.SoapSystem;
 using DG.Tweening;
 using UnityEngine;

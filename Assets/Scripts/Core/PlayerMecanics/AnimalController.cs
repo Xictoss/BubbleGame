@@ -1,12 +1,11 @@
 using System.Collections;
 using System.Linq;
-using BubbleGame.Core.SFXManager;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.VFX;
 using Random = UnityEngine.Random;
 
-namespace BubbleGame.Core.PlayerMecanics
+namespace BubbleGame.Core
 {
     public class AnimalController : MonoBehaviour
     {

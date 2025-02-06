@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace BubbleGame.Core.SFXManager
+namespace BubbleGame.Core
 {
     public class SoundManager : MonoBehaviour
     {

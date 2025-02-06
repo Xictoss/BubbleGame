@@ -1,5 +1,4 @@
 using System.Collections;
-using BubbleGame.Core.SFXManager;
 using UnityEngine;
 using UnityEngine.VFX;
 
