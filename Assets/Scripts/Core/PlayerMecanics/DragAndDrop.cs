@@ -13,7 +13,7 @@ namespace BubbleGame.Core.PlayerMecanics
         [SerializeField] 
         private float maxDragDistance;
 
-        [SerializeField] private LayerMask draggedMask, nonDraggedMask;
+        [SerializeField] private LayerMask draggedMask, nonDraggedMask, raycastMask;
         
         private Vector3 MousePos;
         private Camera _cam;
@@ -45,7 +45,7 @@ namespace BubbleGame.Core.PlayerMecanics
         {
             if (Input.GetMouseButtonDown(0))
             {
-                Collider2D hit = Physics2D.OverlapPoint(GetMousePos());
+                Collider2D hit = Physics2D.OverlapPoint(GetMousePos(), raycastMask);
                 if (hit != null && hit == col2d)
                 {
                     isDragged = true;

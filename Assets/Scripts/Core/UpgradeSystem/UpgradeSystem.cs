@@ -1,3 +1,4 @@
+using BubbleGame.Core.SFXManager;
 using BubbleGame.Core.SoapSystem;
 using DG.Tweening;
 using UnityEngine;
@@ -44,6 +45,7 @@ namespace BubbleGame.Core
                 _soapGenerator.generatePower = Mathf.CeilToInt(_soapGenerator.generatePower * upgradePower);
                 upgradeCroquetteCost = Mathf.CeilToInt(upgradeCroquetteCost * 1.6f);
                 _refreshTmp.RefreshTMPS();
+                SoundManager.Instance.PlaySound2D("UpgradeCrunch");
             }
             else
             {
@@ -60,10 +62,12 @@ namespace BubbleGame.Core
                 spawnSystem.index += 1;
                 _spawnSystem.croquetteCost = Mathf.CeilToInt(_spawnSystem.croquetteCost * animalPriceMultiplier);
                 _refreshTmp.RefreshTMPS();
+                SoundManager.Instance.PlaySound2D("UpgradeSoap");
             }
             else
             {
                 levelUpButton.transform.DOShakePosition(1, Vector3.left, 100);
+                //TODO JOUER SON DE FAIL D'ACHAT.
             }
         }
 

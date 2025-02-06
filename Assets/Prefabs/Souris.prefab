@@ -9,12 +9,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -5223417329953179620, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1.4285713
+      objectReference: {fileID: 0}
+    - target: {fileID: -5223417329953179620, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.4285713
+      objectReference: {fileID: 0}
+    - target: {fileID: -5223417329953179620, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 1.4285715
+      value: 1.4285713
       objectReference: {fileID: 0}
     - target: {fileID: -5223417329953179620, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 1.4285715
+      value: 1.4285713
       objectReference: {fileID: 0}
     - target: {fileID: 5972604747557092, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
       propertyPath: soapValue
@@ -81,9 +89,17 @@ PrefabInstance:
       value: Souris
       objectReference: {fileID: 0}
     - target: {fileID: 8367511869799188267, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
+      propertyPath: m_Size.x
+      value: 1.4285713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8367511869799188267, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
+      propertyPath: m_Size.y
+      value: 1.4285713
+      objectReference: {fileID: 0}
+    - target: {fileID: 8367511869799188267, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: ee615cb3957c16c418b2704db9ed82c1, type: 3}
+      objectReference: {fileID: 21300000, guid: b7591694c20fce748a1fde14ab7bfad7, type: 3}
     - target: {fileID: 8367511869799188267, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -94,6 +110,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8367511869799188267, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
       propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8367511869799188267, guid: 64cfdb48129fd3348ad20194962d7fb9, type: 3}
+      propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

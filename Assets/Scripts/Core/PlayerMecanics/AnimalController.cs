@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Linq;
+using BubbleGame.Core.SFXManager;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.VFX;
@@ -12,7 +13,6 @@ namespace BubbleGame.Core.PlayerMecanics
         private SpawnSystem spawnSystem;
         private Player player;
         private RefreshTMP refreshTMP;
-        private VfxManager vfxManager;
 
         private float currentTime;
         [SerializeField]
@@ -73,18 +73,11 @@ namespace BubbleGame.Core.PlayerMecanics
             player.Croquette += croquetteToAdd;
             player.Soap += soapToAdd;
             refreshTMP.RefreshTMPS();
-            Die(ats.gameObject);
+            Vector3 pos = ats.transform.position;
+            VfxManager.VFX(sellParticles, pos, 1.5f);
+            SoundManager.Instance.PlaySound2D("Bass");
+            ats.Die();
         }
-
-        public void Die(GameObject atd)
-        {
-            Vector3 pos = atd.transform.position;
-            pos.x = 0;
-            Destroy(atd.gameObject);
-            vfxManager.VFX(sellParticles, pos, 1.5f);
-        }
-        
-
         public void Merge(Animal a, Animal b)
         {
             if(a.index != b.index && a != b)
@@ -99,16 +92,14 @@ namespace BubbleGame.Core.PlayerMecanics
             Transform bTransform = b.transform;
             
             Vector3 center = (aPosition + bPosition) * 0.5f;
-            aTransform.DOMove(center, 0.5f);
+            aTransform.DOMove(center, 0.5f).OnComplete(() => a.Die());
             bTransform.DOMove(center, 0.5f).OnComplete(() =>
             {
-                Vector3 PositionToSpawnVFX = a.transform.position;
-                Destroy(a.gameObject);
-                Destroy(b.gameObject);
-                //vfxManager.VFX(sellParticles, PositionToSpawnVFX, 1.5f);
-                //PlayVFXAtMerge(PositionToSpawnVFX, visualMergeEffect );
-
-            
+                Vector3 positionToSpawnVFX = b.transform.position;
+                b.Die();
+                
+                VfxManager.VFX(mergeParticles, positionToSpawnVFX, 1.5f);
+                SoundManager.Instance.PlaySound2D("PopMerge");
                 if (spawnSystem.IsIndexValid(newIndex))
                 { 
                     spawnSystem.SpawnAnimal(newIndex, a.transform.position, a.transform.rotation);

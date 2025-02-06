@@ -81,6 +81,10 @@ namespace BubbleGame.Core
             rb2d.linearVelocity = currentDirection * moveSpeed;
         }
 
+        public void Die()
+        {
+            Destroy(gameObject);
+        }
 
         private void OnCollisionEnter2D(Collision2D other)
         {
