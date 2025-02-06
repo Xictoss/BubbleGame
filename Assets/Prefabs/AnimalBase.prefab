@@ -183,6 +183,9 @@ MonoBehaviour:
   nonDraggedMask:
     serializedVersion: 2
     m_Bits: 0
+  raycastMask:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!114 &5972604747557092
 MonoBehaviour:
   m_ObjectHideFlags: 0
