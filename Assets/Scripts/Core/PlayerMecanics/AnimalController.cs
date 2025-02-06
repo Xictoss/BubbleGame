@@ -79,8 +79,9 @@ namespace BubbleGame.Core.PlayerMecanics
         public void Die(GameObject atd)
         {
             Vector3 pos = atd.transform.position;
+            pos.x = 0;
             Destroy(atd.gameObject);
-            //vfxManager.VFX(sellParticles, pos, 1.5f);
+            vfxManager.VFX(sellParticles, pos, 1.5f);
         }
         
 
