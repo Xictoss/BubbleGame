@@ -1,25 +1,29 @@
 using UnityEngine;
- 
-[System.Serializable]
-public struct SoundEffect
+
+
+namespace BubbleGame.Core.SFXManager
 {
-    public string groupID;
-    public AudioClip[] clips;
-}
- 
-public class SoundLibrary : MonoBehaviour
-{
-    public SoundEffect[] soundEffects;
- 
-    public AudioClip GetClipFromName(string name)
+    [System.Serializable]
+    public struct SoundEffect
     {
-        foreach (var soundEffect in soundEffects)
+        public string groupID;
+        public AudioClip[] clips;
+    }
+     
+    public class SoundLibrary : MonoBehaviour
+    {
+        public SoundEffect[] soundEffects;
+     
+        public AudioClip GetClipFromName(string name)
         {
-            if (soundEffect.groupID == name)
+            foreach (var soundEffect in soundEffects)
             {
-                return soundEffect.clips[Random.Range(0, soundEffect.clips.Length)];
+                if (soundEffect.groupID == name)
+                {
+                    return soundEffect.clips[Random.Range(0, soundEffect.clips.Length)];
+                }
             }
+            return null;
         }
-        return null;
     }
 }
