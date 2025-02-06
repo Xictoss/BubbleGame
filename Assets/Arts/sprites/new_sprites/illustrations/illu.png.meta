@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2f43dcb91fe597b42b7ae613992c12b0
+guid: 8ca6070ede0901d45a2eaae446c52847
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,12 +72,12 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 1
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
@@ -98,9 +98,9 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Android
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 45
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -118,8 +118,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1080
+        width: 4096
+        height: 2048
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      illu_0: -1556592369555084157
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

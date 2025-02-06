@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3af0b4e9b4244e64eb2a025cd12538e1
+guid: 8669e30ea73352a43a42a0d74e6a36a6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7041463722039720812
-    second: illu2_0
+      213: 656921882003585226
+    second: inventary_blue_TV_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -98,14 +98,14 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Android
-    maxTextureSize: 256
+    maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 45
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 1
+    overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: illu2_0
+      name: inventary_blue_TV_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1252
-        height: 1252
+        width: 542
+        height: 249
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 494c5055d02b74e90800000000000000
-      internalID: -7041463722039720812
+      spriteID: ac8310e98fadd1900800000000000000
+      internalID: 656921882003585226
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      illu2_0: -7041463722039720812
+      inventary_blue_TV_0: 656921882003585226
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
