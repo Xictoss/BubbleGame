@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: 26debb902198fa24f8c11beeb78e1d0b
+guid: 5a64cf56bdea24c4f9627a9ec69d0754
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7409311211414909236
-    second: bowl_sprite_sheet_0
+      213: 7625156126123403703
+    second: bowl_sprite_sheet 1_0
   - first:
-      213: -5650281536483749128
-    second: bowl_sprite_sheet_1
+      213: -768200228577721256
+    second: bowl_sprite_sheet 1_1
+  - first:
+      213: 8171606903821166493
+    second: bowl_sprite_sheet 1_2
+  - first:
+      213: 3052905897719729568
+    second: bowl_sprite_sheet 1_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,37 +118,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bowl_sprite_sheet_0
+      name: bowl_sprite_sheet 1_0
       rect:
         serializedVersion: 2
         x: 58
@@ -157,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43174b26a4923d660800000000000000
-      internalID: 7409311211414909236
+      spriteID: 7b9aa7ec81ff1d960800000000000000
+      internalID: 7625156126123403703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bowl_sprite_sheet_1
+      name: bowl_sprite_sheet 1_1
       rect:
         serializedVersion: 2
         x: 570
@@ -179,8 +159,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8f210f801ea2691b0800000000000000
-      internalID: -5650281536483749128
+      spriteID: 854404356fdc655f0800000000000000
+      internalID: -768200228577721256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowl_sprite_sheet 1_2
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 336
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97e36a1f21676170800000000000000
+      internalID: 8171606903821166493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bowl_sprite_sheet 1_3
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 331
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad874e2db91e5a20800000000000000
+      internalID: 3052905897719729568
       vertices: []
       indices: 
       edges: []
@@ -199,8 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bowl_sprite_sheet_0: 7409311211414909236
-      bowl_sprite_sheet_1: -5650281536483749128
+      bowl_sprite_sheet 1_0: 7625156126123403703
+      bowl_sprite_sheet 1_1: -768200228577721256
+      bowl_sprite_sheet 1_2: 8171606903821166493
+      bowl_sprite_sheet 1_3: 3052905897719729568
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
