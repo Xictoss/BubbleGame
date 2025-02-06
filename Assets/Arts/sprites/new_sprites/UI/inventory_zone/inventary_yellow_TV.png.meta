@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 3af0b4e9b4244e64eb2a025cd12538e1
+guid: dd14e8137443e1e4480057153f26ebb4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7041463722039720812
-    second: illu2_0
+      213: 5779654849985854918
+    second: inventary_yellow_TV_0
+  - first:
+      213: -9126106239927232185
+    second: inventary_yellow_TV_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -98,14 +101,14 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Android
-    maxTextureSize: 256
+    maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 45
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 1
+    overridden: 0
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: illu2_0
+      name: inventary_yellow_TV_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1252
-        height: 1252
+        width: 438
+        height: 254
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 494c5055d02b74e90800000000000000
-      internalID: -7041463722039720812
+      spriteID: 6cd35c1d675753050800000000000000
+      internalID: 5779654849985854918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventary_yellow_TV_1
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 48
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74959aa1abe895180800000000000000
+      internalID: -9126106239927232185
       vertices: []
       indices: 
       edges: []
@@ -138,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      illu2_0: -7041463722039720812
+      inventary_yellow_TV_0: 5779654849985854918
+      inventary_yellow_TV_1: -9126106239927232185
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
